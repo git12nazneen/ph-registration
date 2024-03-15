@@ -3,7 +3,7 @@ import { useState } from "react";
 import Course from "../Course/Course";
 
 
-const Courses = () => {
+const Courses = ({handleFunction}) => {
 
     const [courses, setCourses] = useState([])
 
@@ -20,6 +20,7 @@ const Courses = () => {
                 courses.map(course => <Course 
                     key={course.id}
                     course={course}
+                    handleFunction={handleFunction}
                     >  </Course>)
             }
            

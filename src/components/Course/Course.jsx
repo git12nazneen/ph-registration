@@ -1,6 +1,6 @@
 
 
-const Course = ({course}) => {
+const Course = ({course,handleFunction}) => {
     const {name,description,photo,price,credit} = course
     return (
         <div>
@@ -14,7 +14,7 @@ const Course = ({course}) => {
         <div className="flex-1">Credit:{credit}</div>
     </div>
     <div className="card-actions ">
-      <button className="btn w-full bg-sky-200">Select</button>
+      <button onClick={()=>handleFunction(course)} className="btn w-full bg-sky-200">Select</button>
     </div>
   </div>
 </div>
