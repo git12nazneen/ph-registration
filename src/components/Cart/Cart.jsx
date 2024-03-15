@@ -2,7 +2,7 @@
 
 const Cart = ({cart}) => {
     return (
-        <div className="bg-sky-200 my-6 p-4 rounded-sm">
+        <div className="bg-sky-200  p-6 rounded-xl">
            <div> <h1>cart: {cart.length}</h1></div>
             <div className="divider"></div>
            <div><h2>Course Name</h2>

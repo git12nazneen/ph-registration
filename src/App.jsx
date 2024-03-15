@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-     <h1 className='text-center py-5 bg-slate-800 text-white font-bold'>Course Registration</h1>
+     <h1 className='text-center py-6 bg-slate-800 text-white font-bold'>Course Registration</h1>
     <div className='grid grid-cols-12 my-10'>
     <div className='col-span-10'>
     <Courses handleFunction={handleFunction}></Courses>
